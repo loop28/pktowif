@@ -11,7 +11,7 @@ step_one="$prefix$private_key"
 echo "--> prefix added"
 
 # sha256-hash the binary version of step_one and repeat one time
-step_two=$(echo -n $step_one| xxd -r -p | sha256sum)
+step_two=$(echo -n $step_one | xxd -r -p | sha256sum)
 step_three=$(echo -n "$step_two" | xxd -r -p | sha256sum)
 echo "--> calculated sha256-sums"
 
