@@ -1,3 +1,5 @@
+PATH=C:\cygwin64\bin;%PATH%
+
 #!/bin/bash
 
 # Script to calculate the Wallet-Input-Format string for a given private key (BTC etc.)
