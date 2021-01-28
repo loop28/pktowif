@@ -1,6 +1,10 @@
 # pktowif
 Small script to convert a Bitcoin private-key to WIF (wallet input format).
 
+Depends on: xxd, sha256sum, head, base58.
+
+How it works: [Private key to WIF](https://en.bitcoin.it/wiki/Wallet_import_format)
+
 ## Usage
 ![preview](https://github.com/loop28/pktowif/raw/main/preview.png)
 
