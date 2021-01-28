@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Script to calculate the Wallet-Input-Format string for a given private key (BTC etc.)
-# License: See bottom of file
 
 # Get private_key from user
 read -p "Paste private key and hit ENTER: " private_key
